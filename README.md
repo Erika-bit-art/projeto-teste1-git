@@ -1,1 +1,42 @@
-dddddddddd
+git init
+
+vai aparecer: Repositório vazio Git inicializado em...(diretorio)
+////////////////////////////////////////////////////////////////////////
+git status
+
+vai aparecer: No ramo master
+
+No commits yet
+
+nada para enviar (crie/copie arquivos e use "git add" para registrar)
+////////////////////////////////////////////////////////////////////////
+git branch '-M' main (acho que é pra mudar o nome da branch)
+///////////////////////////////////////////////////////////////////
+git status (pra ver o status atual)
+
+vai aparecer: No ramo master
+
+No commits yet
+
+nada para enviar (crie/copie arquivos e use "git add" para registrar)
+////////////////////////////////////////////////////////////////////////////
+git branch '-M' main (pra mudar o nome da branch)
+///////////////////////////////////////////////////////
+git remote add origin https://github.com/Erika-bit-art/projeto-teste1-git (pra conectar la no git acho, é a url do repositorio)
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+git add oi.txt (nome do arquivo que ja criei no vscode e quero que vá pro git)
+///////////////////////////////////////////////////////////////////////////////////////////
+git commit -m "feat:arquivo-oi" (o que tá entre aspas é nome simbolico, escolho qual quiser)
+
+OBS: sempre dou 'git add'... e logo em seguida 'git commit...'
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+git push origin main (acho que é pra mandar pro git)
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+PRO CONTEÚDO DOS ARQUIVOS QUE FORAM PRO GIT APARECER:
+
+git add .  (tem um espaço antes do .)
+git status
+git commit -m "(nome que eu quiser)"
+git push origin main
