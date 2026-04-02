@@ -1,0 +1,22 @@
+git init
+
+vai aparecer: Repositório vazio Git inicializado em...(diretorio)
+////////////////////////////////////////////////////////////////////////
+git status
+
+vai aparecer: No ramo master
+
+No commits yet
+
+nada para enviar (crie/copie arquivos e use "git add" para registrar)
+////////////////////////////////////////////////////////////////////////
+git branch '-M' main (acho que é pra mudar o nome da branch)
+///////////////////////////////////////////////////////////////////
+git status (pra ver o status atual)
+
+vai aparecer: No ramo master
+
+No commits yet
+
+nada para enviar (crie/copie arquivos e use "git add" para registrar)
+////////////////////////////////////////////////////////////////////////////
